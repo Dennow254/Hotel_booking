@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: grey;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header .logo {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    padding: 10px 20px;
+    background: #eee;
+}
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: navy; text-underline-position: ;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2, h3, h4 {
+    color: rgb(10, 10, 3);
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 20px 0;
+}
+
+ul li img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    color: #d4a24c;
+    margin-bottom: 10px;
+}
+
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-column form button {
+    padding: 10px;
+    background-color: #d4a24c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-column form button:hover {
+    background-color: #b8923b;
+}
+
+.footer-column p,
+.footer-column ul {
+    margin: 10px 0;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer-column .btn:hover {
+    background-color: #555;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
