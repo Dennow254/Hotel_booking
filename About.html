@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hotel Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color: grey;">
+        <div class="logo">
+            <h1 style="color: yellow;">Hotel Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> &gt; <a href="about.html">About Us</a>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about-us" style="background-color: white; color: white;">
+        <div class="container">
+            <h2>About Us</h2>
+            <h3>Our Story</h3>
+            <p>Here you can provide a detailed description of the hotel's history, mission, and values.</p>
+            <p>Include some high-quality images of the hotel, staff, and events.</p>
+            <div class="images">
+                <img src="C:\Users\USER\OneDrive\Documents\Pictures\hotel1.jpeg" alt="Hotel Image 1">
+                <img src="hotel2.jpg" alt="Hotel Image 2">
+            </div>
+
+            <h3>Meet the Team</h3>
+            <div class="team">
+                <div class="team-member">
+                    <img src="C:\Users\USER\OneDrive\Documents\Pictures\Camera Roll\WIN_20230828_11_44_00_Pro.jpg" alt="Team Member 1">
+                    <h4>Dennis Kimutai</h4>
+                    <p>General Manager</p>
+                </div>
+                <div class="team-member">
+                    <img src="C:\Users\USER\OneDrive\Desktop\Downloads\WhatsApp Image 2024-07-16 at 11.21.17.jpeg" alt="Team Member 2">
+                    <h4>Kimutai Kimeli Dennis <br> CEO</br></h4>
+                    <p>CEO</p>
+                </div>
+            </div>
+
+            <h3>Our Services</h3>
+            <ul>
+                <li>
+                    <h4>Room Service</h4>
+                    <p>Description of Room Service</p>
+                    <img src="service1.jpg" alt="Service Image 1">
+                </li>
+                <li>
+                    <h4>Spa</h4>
+                    <p>Description of Spa</p>
+                    <img src="service2.jpg" alt="Service Image 2">
+                </li>
+                <li>
+                    <h4>Gym</h4>
+                    <p>Description of Gym</p>
+                    <img src="C:\Users\USER\OneDrive\Documents\Pictures\gym1.jpeg" alt="Service Image 3">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>News & Offers Alerts</h3>
+                <form action="subscribe.php" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Enter your email here" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                <p>We don't spam email :)</p>
+            </div>
+            <div class="footer-column">
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>Accommodation</li>
+                    <li>Conferencing</li>
+                    <li>Dining & Entertainment</li>
+                    <li>Free transfers to Wilson Airport</li>
+                    <li>Fitness Centre & Outdoor Pool</li>
+                    <li>Spa, Sauna & Wellness center</li>
+                    <li>Express Laundry</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contacts & Social Media</h3>
+                <p><strong>Call us:</strong> +254 709 995 000/2/3 OR +254 730 500 000</p>
+                <p><strong>Email:</strong> reservations@westonhotel.com</p>
+                <p><strong>Address:</strong> Langata Road, Opposite Wilson Airport, Nairobi City, P.O BOX 36379-00200, Kenya</p>
+                <button class="btn">WhatsApp Live Chat</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Weston Hotel Ltd. All Rights Reserved. Powered By ideasPLUS.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
