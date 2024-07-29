@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DenKim Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color: grey;">
+        <div class="logo">
+            <h1 style="color: yellow;">DenKim Hotel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: grey; color: white;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Get in touch with our team by filling out the form below.</p>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required><br>
+                    <br>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+                    <br>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+            <div class="map">
+                <h3>Find Us Here</h3>
+                <iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d33586.47656259052!2d36.814898528331604!3d-1.3115437412762714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11614556a21f%3A0x61b03a48292bacf9!2sWeston%20Hotel%20Nairobi!5e0!3m2!1sen!2ske!4v1721111741342!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>News & Offers Alerts</h3>
+                <form action="subscribe.php" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Enter your email here" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                <p>We don't spam email :)</p>
+            </div>
+            <div class="footer-column">
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>Accommodation</li>
+                    <li>Conferencing</li>
+                    <li>Dining & Entertainment</li>
+                    <li>Free transfers to Wilson Airport</li>
+                    <li>Fitness Centre & Outdoor Pool</li>
+                    <li>Spa, Sauna & Wellness center</li>
+                    <li>Express Laundry</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contacts & Social Media</h3>
+                <p><strong>Call us:</strong> +254 709 995 000/2/3 OR +254 730 500 000</p>
+                <p><strong>Email:</strong> reservations@denkimhotel.com</p>
+                <p><strong>Address:</strong> Langata Road, Opposite Wilson Airport, Nairobi City, P.O BOX 36379-00200, Kenya</p>
+                <button class="btn">WhatsApp Live Chat</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DenKim Hotel Ltd. All Rights Reserved. Powered By ideasPLUS.</p>
+        </div>
+    </footer>
+</body>
+</html>
