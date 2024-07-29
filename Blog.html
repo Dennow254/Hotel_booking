@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - DenKim Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color: grey;">
+        <div class="logo">
+            <h1 style="color: yellow;">DenKim Hotel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section id="blog" style="background-color: yellow; color: black;">
+        <div class="container">
+            <h2>Blog</h2>
+            <p>Stay updated with our latest news and tips.</p>
+            <a href="blog.html" class="btn">Read Blog</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>News & Offers Alerts</h3>
+                <form action="subscribe.php" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Enter your email here" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                <p>We don't spam email :)</p>
+            </div>
+            <div class="footer-column">
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>Accommodation</li>
+                    <li>Conferencing</li>
+                    <li>Dining & Entertainment</li>
+                    <li>Free transfers to Wilson Airport</li>
+                    <li>Fitness Centre & Outdoor Pool</li>
+                    <li>Spa, Sauna & Wellness center</li>
+                    <li>Express Laundry</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contacts & Social Media</h3>
+                <p><strong>Call us:</strong> +254 709 995 000/2/3 OR +254 730 500 000</p>
+                <p><strong>Email:</strong> reservations@denkimhotel.com</p>
+                <p><strong>Address:</strong> Langata Road, Opposite Wilson Airport, Nairobi City, P.O BOX 36379-00200, Kenya</p>
+                <button class="btn">WhatsApp Live Chat</button>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DenKim Hotel Ltd. All Rights Reserved. Powered By ideasPLUS.</p>
+        </div>
+    </footer>
+</body>
+</html>
